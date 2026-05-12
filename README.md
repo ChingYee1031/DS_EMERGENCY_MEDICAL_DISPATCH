@@ -1,5 +1,5 @@
 # Emergency Medical Dispatch System
-[cite_start]This project simulates a real-time ambulance dispatch system using graph-based routing and priority-based call handling to reduce response times[cite: 3, 8].
+This project simulates a real-time ambulance dispatch system using graph-based routing and priority-based call handling to reduce response times.
 
 ---
 
@@ -36,9 +36,10 @@ $env:Path = "$env:JAVA_HOME\bin;" + $env:Path
 ## ⚖️ Repo Rules
 
 * **Do not push directly to `main`.** Always use a branch for features or bug fixes.
-* **Feature Workflow:** 1. Create a branch: `git checkout -b feature/your-feature-name`
+* **Feature Workflow:** 1. Switch to your branch: `git checkout feature/backend` (or `frontend`).
 2. Push the branch: `git push origin feature/your-feature-name`
-3. Open a **Pull Request (PR)** on GitHub to merge into `main`.
+3. Commit & Push: `git add .` -> `git commit -m "your message"` -> `git push origin [branch-name]`.
+4. Open a **Pull Request (PR)** on GitHub to merge into `main`.
 * **Stability:** Keep `main` stable; merge only after the team has verified the code runs successfully.
 
 ---
