@@ -66,9 +66,7 @@ From the project root:
 
 | Path | Description |
 | --- | --- |
-| `src/main/java/` | Backend logic including **Dijkstra Pathfinding** and **Priority Queues**.
-
- |
+| `src/main/java/` | Backend logic including **Dijkstra Pathfinding** and **Priority Queues**.|
 | `src/main/resources/static/` | Frontend files (HTML, CSS, JavaScript). |
 | `src/main/resources/templates/` | Dynamic UI templates (if using Thymeleaf). |
 | `pom.xml` | Maven dependencies and project configuration. |
@@ -79,18 +77,9 @@ From the project root:
 
 * **Frontend:** HTML5, CSS3, JavaScript
 * **Backend:** Java 21, Spring Boot 4.0.6
-* **Data Structures (Grading Criteria):**
-* 
-**Graph:** Dijkstra's Algorithm for computing the shortest route ETA.
 
-
-* 
-**Priority Queue (Max-Heap):** Severity-based prioritization (Severity 1: High, 2: Medium, 3: Low) .
-
-
-* 
-**Queue (FIFO):** Handling for non-urgent calls when all ambulances are busy.
-
-
+* **Graph:** Dijkstra's Algorithm for computing the shortest route ETA.
+* **Priority Queue (Max-Heap):** Severity-based prioritization (Severity 1: High, 2: Medium, 3: Low) .
+* **Queue (FIFO):** Handling for non-urgent calls when all ambulances are busy.
 
 ---
